@@ -17,7 +17,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import AddIcon from '@mui/icons-material/Add';
 
-const API_URL = 'http://localhost:3000/api/users';
+const API_URL = 'https://back-end-user-management-one.vercel.app/api/users';
 
 function App() {
   const [users, setUsers] = useState([]);
